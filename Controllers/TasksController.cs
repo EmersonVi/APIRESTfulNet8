@@ -38,5 +38,13 @@ namespace ToDoApi.Controllers
 
             return Ok(new { message = "Tarea actualizada", task });
         }
+                // GET /tasks/{id}
+        [HttpGet("{id}")]
+        public IActionResult GetById(int id)
+        {
+            var task = tasks.FirstOrDefault(t => t.Id == id);
+            if (task == null) return NotFound(new { message = "Tarea no encontrada" });
+            return Ok(task);
+        }
     }
 }
