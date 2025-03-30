@@ -51,10 +51,10 @@ namespace ToDoApi.Controllers
         public IActionResult Delete(int id)
         {
             var task = tasks.FirstOrDefault(t => t.Id == id);
-            if (task == null) return NotFound(new { message = "Tarea no encontrada" });
+            if (task == null) return NotFound(new { message = "Tarea no encontrada." });
 
             tasks.Remove(task);
-            return Ok(new { message = "Tarea eliminada", tasks });
+            return Ok(new { message = "Tarea eliminada.", tasks });
         }
     }
 }
