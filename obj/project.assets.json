@@ -482,19 +482,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hp\\.nuget\\packages\\": {}
+    "C:\\Users\\USUARIO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\RiderProjects\\ToDoApi\\ToDoApi.csproj",
+      "projectUniqueName": "C:\\Users\\USUARIO\\RiderProjects\\APIRESTfulNet8\\ToDoApi.csproj",
       "projectName": "ToDoApi",
-      "projectPath": "C:\\Users\\hp\\RiderProjects\\ToDoApi\\ToDoApi.csproj",
-      "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp\\RiderProjects\\ToDoApi\\obj\\",
+      "projectPath": "C:\\Users\\USUARIO\\RiderProjects\\APIRESTfulNet8\\ToDoApi.csproj",
+      "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USUARIO\\RiderProjects\\APIRESTfulNet8\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -551,7 +551,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

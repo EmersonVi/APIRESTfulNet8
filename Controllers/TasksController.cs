@@ -25,6 +25,18 @@ namespace ToDoApi.Controllers
 
             return CreatedAtAction(nameof(GetById), new { id = task.Id }, task);
         }
+        
+        // PUT /tasks/{id}
+        [HttpPut("{id}")]
+        public IActionResult Update(int id, [FromBody] ToDo updatedTask)
+        {
+            var task = tasks.FirstOrDefault(t => t.Id == id);
+            if (task == null) return NotFound(new { message = "Tarea no encontrada" });
 
+            task.Titulo = updatedTask.Titulo;
+            task.Estado = updatedTask.Estado;
+
+            return Ok(new { message = "Tarea actualizada", task });
+        }
     }
 }
